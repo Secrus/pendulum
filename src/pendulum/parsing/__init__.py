@@ -12,7 +12,7 @@ from typing import Any
 from typing import Optional
 from typing import cast
 
-from dateutil import parser
+from pendulum.parsing.dateutil_parser import Parser
 
 from pendulum.parsing.exceptions import ParserError
 
@@ -125,7 +125,7 @@ def _parse(text: str, **options: Any) -> datetime | date | time | _Interval | Du
         raise ParserError(f"Unable to parse string [{text}]")
 
     try:
-        dt = parser.parse(
+        dt = Parser().parse(
             text, dayfirst=options["day_first"], yearfirst=options["year_first"]
         )
     except ValueError:

@@ -1363,4 +1363,4 @@ test = ["time-machine"]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.9"
-content-hash = "491ee653cad58327fa9ff27388a6d0402bc8d5202b08bca616042f5d5ae12176"
+content-hash = "ec0a4d991cc1cf351164ec6dc7a6c7491a531516050b06dcdd290a0a25c36128"

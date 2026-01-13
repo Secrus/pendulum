@@ -37,6 +37,7 @@ Repository = "https://github.com/sdispater/pendulum"
 pytest = "^7.1.2"
 time-machine = ">=2.16.0"
 pytest-benchmark = "^4.0.0"
+python-dateutil= ">=2.6"
 
 [tool.poetry.group.doc.dependencies]
 mkdocs = "^1.0"
